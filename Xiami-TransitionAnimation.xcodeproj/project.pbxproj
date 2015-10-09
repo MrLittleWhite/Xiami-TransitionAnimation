@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B48ADDA1BC7622100840866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48ADD91BC7622100840866 /* main.m */; };
+		7B48ADDD1BC7622100840866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48ADDC1BC7622100840866 /* AppDelegate.m */; };
+		7B48ADE01BC7622100840866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48ADDF1BC7622100840866 /* ViewController.m */; };
+		7B48ADE31BC7622100840866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B48ADE11BC7622100840866 /* Main.storyboard */; };
+		7B48ADE51BC7622100840866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B48ADE41BC7622100840866 /* Images.xcassets */; };
+		7B48ADE81BC7622100840866 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B48ADE61BC7622100840866 /* LaunchScreen.xib */; };
+		7B48ADF41BC7622100840866 /* Xiami_TransitionAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48ADF31BC7622100840866 /* Xiami_TransitionAnimationTests.m */; };
+		7B48ADFF1BC7628000840866 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48ADFE1BC7628000840866 /* PlayViewController.m */; };
+		7B48AE061BC768C400840866 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48AE051BC768C400840866 /* UIView+Layout.m */; };
+		7B48AE091BC7781C00840866 /* XiamiPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48AE081BC7781C00840866 /* XiamiPresentAnimation.m */; };
+		7B48AE0C1BC7784400840866 /* XiamiDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B48AE0B1BC7784400840866 /* XiamiDismissAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B48ADEE1BC7622100840866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B48ADCC1BC7622100840866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B48ADD31BC7622100840866;
+			remoteInfo = "Xiami-TransitionAnimation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B48ADD41BC7622100840866 /* Xiami-TransitionAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xiami-TransitionAnimation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B48ADD81BC7622100840866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B48ADD91BC7622100840866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B48ADDB1BC7622100840866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B48ADDC1BC7622100840866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B48ADDE1BC7622100840866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B48ADDF1BC7622100840866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B48ADE21BC7622100840866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B48ADE41BC7622100840866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B48ADE71BC7622100840866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B48ADED1BC7622100840866 /* Xiami-TransitionAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xiami-TransitionAnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B48ADF21BC7622100840866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B48ADF31BC7622100840866 /* Xiami_TransitionAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xiami_TransitionAnimationTests.m; sourceTree = "<group>"; };
+		7B48ADFD1BC7628000840866 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		7B48ADFE1BC7628000840866 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		7B48AE041BC768C400840866 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		7B48AE051BC768C400840866 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		7B48AE071BC7781C00840866 /* XiamiPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiamiPresentAnimation.h; sourceTree = "<group>"; };
+		7B48AE081BC7781C00840866 /* XiamiPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiamiPresentAnimation.m; sourceTree = "<group>"; };
+		7B48AE0A1BC7784400840866 /* XiamiDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiamiDismissAnimation.h; sourceTree = "<group>"; };
+		7B48AE0B1BC7784400840866 /* XiamiDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiamiDismissAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B48ADD11BC7622100840866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B48ADEA1BC7622100840866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B48ADCB1BC7622100840866 = {
+			isa = PBXGroup;
+			children = (
+				7B48ADD61BC7622100840866 /* Xiami-TransitionAnimation */,
+				7B48ADF01BC7622100840866 /* Xiami-TransitionAnimationTests */,
+				7B48ADD51BC7622100840866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B48ADD51BC7622100840866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B48ADD41BC7622100840866 /* Xiami-TransitionAnimation.app */,
+				7B48ADED1BC7622100840866 /* Xiami-TransitionAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B48ADD61BC7622100840866 /* Xiami-TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7B48ADDB1BC7622100840866 /* AppDelegate.h */,
+				7B48ADDC1BC7622100840866 /* AppDelegate.m */,
+				7B48ADDE1BC7622100840866 /* ViewController.h */,
+				7B48ADDF1BC7622100840866 /* ViewController.m */,
+				7B48ADFD1BC7628000840866 /* PlayViewController.h */,
+				7B48ADFE1BC7628000840866 /* PlayViewController.m */,
+				7B48AE071BC7781C00840866 /* XiamiPresentAnimation.h */,
+				7B48AE081BC7781C00840866 /* XiamiPresentAnimation.m */,
+				7B48AE0A1BC7784400840866 /* XiamiDismissAnimation.h */,
+				7B48AE0B1BC7784400840866 /* XiamiDismissAnimation.m */,
+				7B48AE041BC768C400840866 /* UIView+Layout.h */,
+				7B48AE051BC768C400840866 /* UIView+Layout.m */,
+				7B48ADE11BC7622100840866 /* Main.storyboard */,
+				7B48ADE41BC7622100840866 /* Images.xcassets */,
+				7B48ADE61BC7622100840866 /* LaunchScreen.xib */,
+				7B48ADD71BC7622100840866 /* Supporting Files */,
+			);
+			path = "Xiami-TransitionAnimation";
+			sourceTree = "<group>";
+		};
+		7B48ADD71BC7622100840866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B48ADD81BC7622100840866 /* Info.plist */,
+				7B48ADD91BC7622100840866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B48ADF01BC7622100840866 /* Xiami-TransitionAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B48ADF31BC7622100840866 /* Xiami_TransitionAnimationTests.m */,
+				7B48ADF11BC7622100840866 /* Supporting Files */,
+			);
+			path = "Xiami-TransitionAnimationTests";
+			sourceTree = "<group>";
+		};
+		7B48ADF11BC7622100840866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B48ADF21BC7622100840866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B48ADD31BC7622100840866 /* Xiami-TransitionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B48ADF71BC7622100840866 /* Build configuration list for PBXNativeTarget "Xiami-TransitionAnimation" */;
+			buildPhases = (
+				7B48ADD01BC7622100840866 /* Sources */,
+				7B48ADD11BC7622100840866 /* Frameworks */,
+				7B48ADD21BC7622100840866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xiami-TransitionAnimation";
+			productName = "Xiami-TransitionAnimation";
+			productReference = 7B48ADD41BC7622100840866 /* Xiami-TransitionAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B48ADEC1BC7622100840866 /* Xiami-TransitionAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B48ADFA1BC7622100840866 /* Build configuration list for PBXNativeTarget "Xiami-TransitionAnimationTests" */;
+			buildPhases = (
+				7B48ADE91BC7622100840866 /* Sources */,
+				7B48ADEA1BC7622100840866 /* Frameworks */,
+				7B48ADEB1BC7622100840866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B48ADEF1BC7622100840866 /* PBXTargetDependency */,
+			);
+			name = "Xiami-TransitionAnimationTests";
+			productName = "Xiami-TransitionAnimationTests";
+			productReference = 7B48ADED1BC7622100840866 /* Xiami-TransitionAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B48ADCC1BC7622100840866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Lyz;
+				TargetAttributes = {
+					7B48ADD31BC7622100840866 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7B48ADEC1BC7622100840866 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7B48ADD31BC7622100840866;
+					};
+				};
+			};
+			buildConfigurationList = 7B48ADCF1BC7622100840866 /* Build configuration list for PBXProject "Xiami-TransitionAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B48ADCB1BC7622100840866;
+			productRefGroup = 7B48ADD51BC7622100840866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B48ADD31BC7622100840866 /* Xiami-TransitionAnimation */,
+				7B48ADEC1BC7622100840866 /* Xiami-TransitionAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B48ADD21BC7622100840866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B48ADE31BC7622100840866 /* Main.storyboard in Resources */,
+				7B48ADE81BC7622100840866 /* LaunchScreen.xib in Resources */,
+				7B48ADE51BC7622100840866 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B48ADEB1BC7622100840866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B48ADD01BC7622100840866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B48ADFF1BC7628000840866 /* PlayViewController.m in Sources */,
+				7B48ADE01BC7622100840866 /* ViewController.m in Sources */,
+				7B48AE0C1BC7784400840866 /* XiamiDismissAnimation.m in Sources */,
+				7B48ADDD1BC7622100840866 /* AppDelegate.m in Sources */,
+				7B48AE061BC768C400840866 /* UIView+Layout.m in Sources */,
+				7B48ADDA1BC7622100840866 /* main.m in Sources */,
+				7B48AE091BC7781C00840866 /* XiamiPresentAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B48ADE91BC7622100840866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B48ADF41BC7622100840866 /* Xiami_TransitionAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B48ADEF1BC7622100840866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B48ADD31BC7622100840866 /* Xiami-TransitionAnimation */;
+			targetProxy = 7B48ADEE1BC7622100840866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B48ADE11BC7622100840866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B48ADE21BC7622100840866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B48ADE61BC7622100840866 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B48ADE71BC7622100840866 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B48ADF51BC7622100840866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B48ADF61BC7622100840866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B48ADF81BC7622100840866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Xiami-TransitionAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B48ADF91BC7622100840866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Xiami-TransitionAnimation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B48ADFB1BC7622100840866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Xiami-TransitionAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xiami-TransitionAnimation.app/Xiami-TransitionAnimation";
+			};
+			name = Debug;
+		};
+		7B48ADFC1BC7622100840866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Xiami-TransitionAnimationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xiami-TransitionAnimation.app/Xiami-TransitionAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B48ADCF1BC7622100840866 /* Build configuration list for PBXProject "Xiami-TransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B48ADF51BC7622100840866 /* Debug */,
+				7B48ADF61BC7622100840866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B48ADF71BC7622100840866 /* Build configuration list for PBXNativeTarget "Xiami-TransitionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B48ADF81BC7622100840866 /* Debug */,
+				7B48ADF91BC7622100840866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B48ADFA1BC7622100840866 /* Build configuration list for PBXNativeTarget "Xiami-TransitionAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B48ADFB1BC7622100840866 /* Debug */,
+				7B48ADFC1BC7622100840866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B48ADCC1BC7622100840866 /* Project object */;
+}
